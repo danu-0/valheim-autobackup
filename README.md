@@ -88,6 +88,7 @@ If you want to **play with friends and share progress**, follow these steps:
 ## 📂 Backup Folder Structure
 Your backup folder will contain:
 ```
+.git
 backups/
 │-- world_name.db
 │-- world_name.fwl
