@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Set your world name here (change "YourWorldName" to match your world)
-set WORLD_NAME=testingworld
+set WORLD_NAME=testingwolrd
 
 :: Set paths
 set SAVE_PATH=C:\Users\Veloxium\AppData\LocalLow\IronGate\Valheim\worlds_local
@@ -25,5 +25,5 @@ git add .
 git commit -m "Auto backup %WORLD_NAME% after Valheim closed - %date% %time%"
 git push origin main
 
-echo Backup completed for world: %WORLD_NAME%
+echo Backup completed for world: %WORLD_NAME% 🚀
 pause
